@@ -25,9 +25,12 @@ namespace TranspozycjaApp
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            int a;
+            Registration registration = new Registration();
+            registration.Show();
+            this.Close();
         }
     }
 }
