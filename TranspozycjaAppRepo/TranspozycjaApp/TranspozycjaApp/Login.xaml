@@ -5,8 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TranspozycjaApp"
         mc:Ignorable="d"
-        Title="Login" Height="450" Width="800">
+        Title="Login" Height="450" Width="400">
     <Grid>
-        
+        <TextBox x:Name="LoginText" HorizontalAlignment="Left" Height="43" Margin="92,74,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="217"/>
+        <TextBox x:Name="PasswordText" HorizontalAlignment="Left" Height="43" Margin="92,139,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="217"/>
+        <Button x:Name="LoginButton" Content="Button" HorizontalAlignment="Left" Height="62" Margin="112,321,0,0" VerticalAlignment="Top" Width="177"/>
+
     </Grid>
 </Window>

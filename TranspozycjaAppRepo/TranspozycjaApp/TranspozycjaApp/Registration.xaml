@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TranspozycjaApp"
         mc:Ignorable="d"
-        Title="Registration" Height="450" Width="800">
-    <Grid>
-        
+        Title="Registration" Height="450" Width="400">
+    <Grid RenderTransformOrigin="0.511,0.462">
+        <Button Content="Button" HorizontalAlignment="Left" Height="62" Margin="112,321,0,0" VerticalAlignment="Top" Width="177"/>
+        <TextBox x:Name="PasswordText" HorizontalAlignment="Left" Height="43" Margin="92,139,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="217"/>
+        <TextBox x:Name="EmailText" HorizontalAlignment="Left" Height="43" Margin="92,201,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="217"/>
+        <TextBox x:Name="LoginText" HorizontalAlignment="Left" Height="43" Margin="92,80,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="217"/>
+
     </Grid>
 </Window>
